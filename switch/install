@@ -1,0 +1,5 @@
+#! /bin/bash
+#mvn clean install -D skipTests
+onos-app 127.0.0.1 uninstall org.netarch.odb.switch
+onos-app 127.0.0.1 install /home/$USER/odb/switch/target/switch-1.0-SNAPSHOT.oar
+onos-app 127.0.0.1 activate org.netarch.odb.switch

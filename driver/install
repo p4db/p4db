@@ -1,0 +1,4 @@
+#! /bin/bash
+onos-app 127.0.0.1 uninstall org.onosproject.drivers.bmv2
+onos-app 127.0.0.1 install /home/$USER/odb/driver/target/onos-drivers-bmv2-1.10.0-SNAPSHOT.oar
+onos-app 127.0.0.1 activate org.onosproject.drivers.bmv2

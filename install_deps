@@ -1,0 +1,7 @@
+#! /bin/bash
+cd driver 
+./install
+cd ..
+cd provider 
+./install
+cd ..

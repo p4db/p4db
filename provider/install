@@ -1,0 +1,5 @@
+#! /bin/bash
+# mvn clean install -D skipTests
+onos-app 127.0.0.1 uninstall org.onosproject.bmv2
+onos-app 127.0.0.1 install app/target/onos-bmv2-app-1.10.0-SNAPSHOT.oar
+# onos-app 127.0.0.1 activate org.onosproject.bmv2

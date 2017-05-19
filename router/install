@@ -1,0 +1,5 @@
+#! /bin/bash
+#mvn clean install -D skipTests
+onos-app 127.0.0.1 uninstall org.netarch.odb.router
+onos-app 127.0.0.1 install /home/$USER/odb/router/target/router-1.0-SNAPSHOT.oar
+onos-app 127.0.0.1 activate org.netarch.odb.router
